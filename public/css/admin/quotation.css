@@ -1,0 +1,24 @@
+.quotation-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.quotation-info{
+   display: flex;
+   justify-content: space-between;
+   width: 100%; 
+}
+
+.quotation-info button{
+    border: none;
+    background-color: var(--icon-hover-color);
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.quotation-info button:hover{
+    color: white;
+    transition: 0.3s ease-in;
+}

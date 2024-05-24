@@ -1,0 +1,16 @@
+
+    
+
+.cusInfo{
+    border-top: 1px solid rgb(165, 164, 164);
+    padding-top: 20px;
+}
+
+
+.table-group-divider .Unverified{
+    color: #b33b2d;
+}
+
+.table-group-divider .Verified{
+    color: #10ab0d;
+}

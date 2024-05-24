@@ -1,0 +1,43 @@
+.report-btns-actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.accomplishment-title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.transaction-form{
+    width: 100%;
+}
+.form-credentials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.credentials {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.transaction-form label{
+    display: block;
+    width: 150px;
+    color: black;
+    margin-bottom: 5px;
+}
+.transaction-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+

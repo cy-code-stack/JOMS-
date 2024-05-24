@@ -1,0 +1,121 @@
+
+.main-map-container {
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 5px;
+    width: 90%;
+    background-color: var(--dominant-color);
+    box-shadow: 0px 1px 5px 1px rgba(98, 97, 97, 0.6);
+    border-radius: 10px;
+    height: 520px;
+    display: flex;
+    margin-top:30px;
+}
+
+#map {
+    flex: 1 0 60%;
+    /* Grow factor, shrink factor, and basis */
+    background-color: #3498db;
+    padding: 20px;
+    margin-right:10px;
+    height:100%;
+}
+
+
+.admin-map {
+            background-color: white;
+            padding: 20px 20px;
+            margin-top: 5px;
+            width: 90%;
+            background-color: white;
+            box-shadow: 0px 1px 5px 1px rgba(98, 97, 97, 0.6);
+            border-radius: 10px;
+            height: 520px;
+            display: flex;
+    }
+.body-content {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+    }
+
+.customer-container {
+    flex: 1 0 40%;
+    /* Grow factor, shrink factor, and basis */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    height:100%;
+    overflow:scroll;
+}
+
+
+@media (max-width: 600px) {
+    .main-map-container {
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+
+    .input-container,
+    #map {
+        flex: 1 0 100%;
+        /* Take up full width when stacked */
+    }
+}
+
+.content-location-form {
+    width: 100%;
+
+}
+
+.input-flex {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-flex div:nth-child(1) {
+    margin-right: 10px;
+}
+
+
+form input {
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: .8px solid rgb(189, 188, 188) !important;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: .8px solid rgb(189, 188, 188) !important;
+}
+
+.btn-save-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end
+}
+
+button {
+    border: none;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: var(--dominant-btn-primary-color);
+    border-radius: 3px;
+    color: var(--dominant-color);
+
+}
+
+
+

@@ -1,0 +1,94 @@
+.star-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.rating {
+    display: block;
+}
+
+.rating h5 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.rating i {
+    font-size: 2.5rem !important;
+    cursor: pointer;
+    margin-bottom: 15px !important;
+}
+
+.rating h5 {
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+
+.rating i {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    background-color: var(--dominant-color);
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.btn-rating-group {
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.btn-rating-group button {
+    font-size: 15px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.btnCancel {
+    background-color: var(--icon-hover-color);
+}
+
+.btnSubmit {
+    background-color: var(--dominant-btn-primary-color);
+}
+
+.image-issue {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-issue img {
+    height: 110px;
+    width: 180px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.image-issue input {
+    height: 30px;
+}

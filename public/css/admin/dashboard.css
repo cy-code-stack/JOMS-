@@ -1,0 +1,36 @@
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-top: 20px;
+}
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: var(--dominant-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px var(--dominant-btn-secondary-color);
+}
+.card-single div:last-child span{
+    font-size: 3rem;
+    color: var(--nav-text-color );
+}
+.card-single div:first-child span{
+    color: var(--nav-text-color)
+}
+.card-single h1 {
+    font-weight: bold;
+}
+.recent-grid{
+    margin-top: 1.4rem;
+    display: inline-block;
+    width: 100%;
+}
+.card{
+    background-color: var(--dominant-btn-secondary-color);
+}
+.card-body{
+    background-color: var(--div-main-color);
+}

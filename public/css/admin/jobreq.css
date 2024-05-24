@@ -1,0 +1,98 @@
+.techInfo {
+    border-top: 1px solid rgb(165, 164, 164);
+    padding-top: 20px;
+}
+
+.unassigned {
+    color: rgb(169, 26, 26);
+}
+
+.header p {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.actions-tect .select-btn {
+    border: none;
+    width: 3.5rem;
+    height: 1.5rem;
+    background-color: rgb(17, 214, 17);
+    border-radius: 5px;
+    color: #fff;
+}
+
+thead {
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+
+tbody td {
+    padding: 5px 8px !important;
+}
+
+
+/* Map modal */
+
+#map {
+    /* Grow factor, shrink factor, and basis */
+
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    /* Grow factor, shrink factor, and basis */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+
+
+.content-location-form {
+    width: 100%;
+
+}
+
+.input-flex {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-flex div:nth-child(1) {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.input-flex div:nth-child(2) {
+    width: 100%;
+}
+
+.content-location-form input {
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: .8px solid rgb(189, 188, 188) !important;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: .8px solid rgb(189, 188, 188) !important;
+}
+
+.disable {
+    color: rgb(38, 38, 38) !important;
+    background-color: rgba(239, 239, 239, 0.575);
+}

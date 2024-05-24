@@ -1,0 +1,20 @@
+footer {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #ED6324;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    bottom: 0;
+}
+footer p{
+    font-size: 15px;
+}
+
+.container-px-5 {
+    align-items: center;
+    text-emphasis: none;
+    text-align: center;
+
+}

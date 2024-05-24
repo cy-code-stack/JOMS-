@@ -1,0 +1,87 @@
+.active {
+  border-bottom: 2px solid rgb(231, 122, 33);
+}
+
+.navbar {
+  background-color: var(--dominant-color);
+  padding: 1px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(128, 121, 121, 0.2);
+  width: 100%;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.nav li:last-child {
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: var(--dominant-btn-primary-color);
+}
+
+/* Profile */
+.img-profile {
+  position: relative;
+}
+
+.img-profile img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav .la-bell {
+  font-size: 20px !important;
+}
+
+@media (max-width: 829px) {
+  .nav li {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 679px) {
+  .nav-container {
+    padding: 0 20px;
+  }
+
+  .nav li {
+    margin-right: 15px;
+  }
+}
+.burger-menu {
+  display: none;
+}

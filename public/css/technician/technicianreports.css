@@ -1,0 +1,146 @@
+.main-table {
+    width: 100%;
+    max-width: 1300px;
+    overflow: auto;
+    margin-top: 20px;
+    min-height: 600px;
+}
+
+.button-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-wrapper button,
+.editable-cell button {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(86, 117, 187);
+}
+
+.editable-cell button {
+    background-color: rgb(235, 187, 97);
+}
+
+.edit-form textarea {
+    margin-bottom: 10px;
+}
+
+.input-main-wrapper,
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 5px;
+}
+
+.input-wrapper:nth-child(1) {
+    margin-right: 10px;
+    width: 100%; 
+}
+
+.input-wrapper:nth-child(2) , .input-wrapper:nth-child(3) {
+    margin-right: 10px;
+    width: 400px; 
+}
+
+.hover:hover {
+    background-color: rgba(11, 159, 193, 0.474);
+    cursor: pointer;
+}
+
+.table-body-scrollable {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.thead {
+    position: sticky;
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+    .main-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rowIssueReport{
+        min-width: 100%;
+    }
+    .input-wrapper:nth-child(1) {
+        width: 100%;
+    }
+    .rowPdf{
+        width: 100%;
+    }
+    .rowPdf p{
+        font-size: 10px;
+    }
+    .textformobile{
+        margin-top: 20px;
+    }
+    .textformobile h5{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .rowAddInfo p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .status{
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .input-wrapper:nth-child(1) {
+        width: 100%; 
+    }
+    .rowAddInfo p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .textformobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .input-wrapper:nth-child(1) {
+        width: 100%; 
+    }
+    .textformobile{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .input-wrapper:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+    }
+    .textformobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .input-wrapper:nth-child(1) {
+        width: 100%; 
+    }
+    .textformobile{
+        display: none;
+    }    
+}

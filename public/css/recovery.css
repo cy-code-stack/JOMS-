@@ -1,0 +1,96 @@
+@import url('global.css');
+
+.recover-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px !important;
+    height: 100%;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.img-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.img-container h3,
+.img-container p {
+    text-align: center;
+    font-family: var(--text-font-family);
+    font-weight: 700;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container label {
+    margin-top: 15px;
+    font-weight: 550;
+}
+
+.form-container p {
+    font-weight: normal;
+    margin: 1px !important;
+    text-align: left;
+    color: red;
+    font-size: 12px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-left: 35px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: var(--div-main-color);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-left: 40px;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--dominant-btn-primary-color);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-container .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    color: var(--navbar-color);
+    font-weight: 600;
+    background-color: var(--dominant-btn-primary-color);
+}
